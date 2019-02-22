@@ -36,13 +36,13 @@ for processes in range(args.min, args.max + 1):
     pool = multiprocessing.Pool(processes)
     start = time.time()
     pool.map_async(square_numbers_in_file, in_files)
+    total_time = (time.time() - start)*1000000
     pool.close()
     pool.join()
     pool.terminate()
 
-    total_time = (time.time() - start)*1000
     y_metric.append(total_time)
-    print("Completed processing in %f milli_seconds" % total_time) 
+    print("Completed processing in %f micro_seconds" % total_time) 
 
 
 file_name = './Results/' + '_'.join(str(datetime.datetime.utcnow()).split()) + '.txt'
