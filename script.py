@@ -21,35 +21,40 @@ args = parser.parse_args()
 x_process = list(range(args.min, args.max + 1))
 y_metric = []
 
+
 def square_numbers_in_file(file):
-    with open(file, 'r') as file:
-        for line in file:
+
+    with open(file, 'r') as f:
+        answer = []
+        for line in f:
             num = int(line)
-            answer = num*num
+            answer.append(num*num)
+
+    return answer
+
 
 in_files = sorted(glob.glob(args.in_files_format))
 
+print('Testing for process range %d to %d' % (args.min, args.max))
+
 for processes in range(args.min, args.max + 1):
-
-    print('Starting processing using %d processes' % processes)
-
-    pool = multiprocessing.Pool(processes)
     start = time.time()
+    pool = multiprocessing.Pool(processes)
     pool.map_async(square_numbers_in_file, in_files)
-    total_time = (time.time() - start)*1000000
     pool.close()
     pool.join()
+    total_time = (time.time() - start) * 10000
     pool.terminate()
 
     y_metric.append(total_time)
-    print("Completed processing in %f micro_seconds" % total_time) 
+    print("Completed processing in %d " % total_time)
 
 
 file_name = './Results/' + '_'.join(str(datetime.datetime.utcnow()).split()) + '.txt'
 
 with open(file_name, 'w') as file:
     for x, y in zip(x_process, y_metric):
-        file.write(str(x) + ' '+  str(y) + '\n')
+        file.write(str(x) + ' ' +  str(y) + '\n')
 
 
 
