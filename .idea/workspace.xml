@@ -2,6 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e55c78a6-ffe2-44a1-83c7-058839368b6b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/file0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/file1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/file2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/file3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/file4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/file5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/file6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/file7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/file8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/file9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100000/file0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100000/file1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100000/file2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100000/file3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100000/file4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100000/file5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100000/file6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100000/file7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100000/file8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/100000/file9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comparing Processes .ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Comparing Processes .ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Other FIles/PerfKitBenchmarker" beforeDir="false" afterPath="$PROJECT_DIR$/Other FIles/PerfKitBenchmarker" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Other FIles/PerfKitBenchmarker/tests/background_tasks_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Other FIles/PerfKitBenchmarker/tests/background_tasks_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.py" beforeDir="false" afterPath="$PROJECT_DIR$/script.py" afterDir="false" />
@@ -13,14 +36,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.9">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/script.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="367">
-                  <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+                <state relative-caret-position="225">
+                  <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
                   <folding>
                     <element signature="e#153#164#0" expanded="true" />
                   </folding>
@@ -47,6 +70,11 @@
         </leaf>
       </split-second>
     </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>y_metric</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -113,12 +141,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550839540617</updated>
-      <workItem from="1550839542515" duration="4220000" />
+      <workItem from="1550839542515" duration="5294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4220000" />
+    <option name="totallyTimeSpent" value="5294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="32" y="23" width="1408" height="877" extended-state="6" />
@@ -169,8 +197,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+        <state relative-caret-position="225">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding>
             <element signature="e#153#164#0" expanded="true" />
           </folding>
