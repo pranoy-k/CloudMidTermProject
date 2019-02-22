@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e55c78a6-ffe2-44a1-83c7-058839368b6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scirpt1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Other FIles/PerfKitBenchmarker" beforeDir="false" afterPath="$PROJECT_DIR$/Other FIles/PerfKitBenchmarker" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Other FIles/PerfKitBenchmarker/tests/background_tasks_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Other FIles/PerfKitBenchmarker/tests/background_tasks_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file7.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file7.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file9.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.py" beforeDir="false" afterPath="$PROJECT_DIR$/script.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +19,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/script.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="616">
-                  <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+                <state relative-caret-position="367">
+                  <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
                   <folding>
                     <element signature="e#153#164#0" expanded="true" />
                   </folding>
@@ -126,12 +113,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550839540617</updated>
-      <workItem from="1550839542515" duration="3996000" />
+      <workItem from="1550839542515" duration="4220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3996000" />
+    <option name="totallyTimeSpent" value="4220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="32" y="23" width="1408" height="877" extended-state="6" />
@@ -182,8 +169,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+        <state relative-caret-position="367">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
           <folding>
             <element signature="e#153#164#0" expanded="true" />
           </folding>

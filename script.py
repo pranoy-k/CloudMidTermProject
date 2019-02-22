@@ -38,8 +38,9 @@ in_files = sorted(glob.glob(args.in_files_format))
 print('Testing for process range %d to %d' % (args.min, args.max))
 
 for processes in range(args.min, args.max + 1):
-    start = time.time()
+
     pool = multiprocessing.Pool(processes)
+    start = time.time()
     pool.map_async(square_numbers_in_file, in_files)
     pool.close()
     pool.join()
