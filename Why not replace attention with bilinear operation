@@ -1,0 +1,15 @@
+Why not replace attention with bilinear operation
+
+Empriically combine attention with bilinear
+
+
+
+
+--pos_in_file ./data/positive_0_CDR_train.txt
+--neg_in_file ./data/negative_0_CDR_train.txt
+--ner_in_files ./data/ner_CDR_train.txt
+--load_vocab ./data
+--output_file_suffix CDR_train.txt
+--max_seq 500000
+--full_abstract True
+--word_piece_codes ./data/word_pieces_open_vocab.txt
