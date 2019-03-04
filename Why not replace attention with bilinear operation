@@ -13,3 +13,7 @@ Empriically combine attention with bilinear
 --max_seq 500000
 --full_abstract True
 --word_piece_codes ./data/word_pieces_open_vocab.txt
+
+
+
+python protoProcessing.py --pos_in_file ./positive_0_CDR_train.txt --neg_in_file ./negative_0_CDR_train_filtered.txt --ner_in_file ./ner_CDR_train.txt
